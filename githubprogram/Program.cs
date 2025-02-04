@@ -10,7 +10,17 @@ namespace githubprogram
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hola mmundo banda");
+            int ii = 0;
+            string ram = "nada";
+            Console.WriteLine("ponga su nombre");
+            ram = Console.ReadLine();
+            Console.WriteLine("ponga cuantas veces se va a repetir");
+            ii = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < ii; i++)
+            {
+                Console.WriteLine(ram);
+            }
             Console.ReadLine();
         }
     }
