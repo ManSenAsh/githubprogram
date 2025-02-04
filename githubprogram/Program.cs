@@ -22,6 +22,14 @@ namespace githubprogram
                 Console.WriteLine(ram);
             }
             Console.ReadLine();
+
+            Console.WriteLine("que onda");
+            int ss = 0;
+            string rem = "nada";
         }
+
+
+      
+       
     }
 }
